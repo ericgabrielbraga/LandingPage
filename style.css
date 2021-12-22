@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+}
+body {
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #27232e 16.62%, #414141 85.61%);
+    
+}
+
+.cabeçalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px;
+}
+.cabeçalho-logo{
+    height: 80px;
+}
+.cabeçalho-menu{
+    display:flex;
+    gap: 35px;
+
+}
+.cabeçalho-menu-title{
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: beige;
+}
+
+.main{
+    border-top: 0.4px solid beige;
+    margin-bottom: 48px;
+}
+.main-section{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    color: beige;
+}
+
+.main-section-balebot{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.main-section-texto-balebot{
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 64px;
+    color: beige;
+}
+.main-section-texto-balebot2{
+    display: flex;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24x;
+    color: beige;
+}
+.main-section-botao{
+    background-color: beige;
+    width: 180px;
+    height: 60px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(46, 31, 31, 0.404);
+    border-radius: 20px ;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: rgb(58, 29, 11);
+    
+}
+.main-section-botao:hover{
+    background-color:rgb(97, 53, 55);
+}
+.secondary-content{
+    display: flex;
+    flex-direction: column;
+    color: beige;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+}
+.main-text-secondary-contet{
+    border-top: 0.4px solid beige;
+    padding: 20px;
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 24px;
+    color: beige;
+    margin-bottom: 10px;
+}
+.secondary-p{
+    font-family: 'Sarala', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    color: beige;
+}
+.rodape{
+    padding: 60px;
+    border-top: 0.4px solid beige;
+    text-align: center;
+}
